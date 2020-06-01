@@ -6,7 +6,8 @@ public class TestModel {
 
 		Model model = new Model();
 
-		System.out.println("TestModel -- TODO");
+		model.creaGrafo(2000);
+		
 		
 //		System.out.println("Creo il grafo relativo al 2000");
 //		model.createGraph(2000);
