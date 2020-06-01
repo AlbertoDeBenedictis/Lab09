@@ -18,6 +18,12 @@ public class Country {
 	}
 
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return nome;
+	}
+
 	public int getCodice() {
 		return codice;
 	}

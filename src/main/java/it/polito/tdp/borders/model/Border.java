@@ -2,28 +2,38 @@ package it.polito.tdp.borders.model;
 
 public class Border {
 
-	private int code_1;
-	private int code_2;
+	private Country c1;
+	private Country c2;
 	
 	
-	
-	public Border(int code_1, int code_2) {
+	public Border(Country c1, Country c2) {
 		super();
-		this.code_1 = code_1;
-		this.code_2 = code_2;
+		this.c1 = c1;
+		this.c2 = c2;
 	}
-	public int getCode_1() {
-		return code_1;
+
+
+	public Country getC1() {
+		return c1;
 	}
-	public void setCode_1(int code_1) {
-		this.code_1 = code_1;
+
+
+	public void setC1(Country c1) {
+		this.c1 = c1;
 	}
-	public int getCode_2() {
-		return code_2;
+
+
+	public Country getC2() {
+		return c2;
 	}
-	public void setCode_2(int code_2) {
-		this.code_2 = code_2;
+
+
+	public void setC2(Country c2) {
+		this.c2 = c2;
 	}
+	
+	
+	
 	
 	
 	
